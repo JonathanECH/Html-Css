@@ -1,0 +1,17 @@
+
+.Box {
+    box-sizing: border-box;
+    width: 150px;
+    padding: 20px 50px;
+    text-align: center;
+    background: #0bf;
+    color: #00f;
+    border-top: 3px solid #03f;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+    border-left: 3px solid #03f;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: auto;
+}

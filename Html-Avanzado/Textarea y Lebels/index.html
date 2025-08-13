@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TextArea y Labels</title>
+</head>
+
+<body>
+    <form>
+        <h2>Formulario de Contacto</h2>
+        <fieldset>
+            <legend>Informacion basica</legend>
+            <!--Input Text-->
+            <div class="form_input">
+                <label>Nombre Completo
+                    <input type="text" name="Nombre" placeholder="Juan Pérez" required>
+                </label>
+            </div>
+
+            <!---Input Email-->
+            <div class="form_input">
+                <label>Correo Electrónico
+                    <input type="email" name="email" placeholder="Ejemplo@gmail.com" required>
+                </label>
+            </div>
+        </fieldset>
+        <!--Select & Option-->
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name="Type_of_user">
+                    <option value="user1">Usuario</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">Comercio</option>
+                </select>
+            </label>
+        </div>
+
+        <!--DataList & Option-->
+        <div class="form_input">
+            <label>Referencia
+                <input list="reference">
+                <datalist id="reference" name="Type_of_user">
+                    <option value="Mikecraft">Un creador de contenido</option>
+                    <option value="Coca-Cola">Una compañia</option>
+                    <option value="Un amigo">Un amigo me recomendo</option>
+                </datalist>
+            </label>
+        </div>
+
+        <!--Textarea-->
+        <div class="form_input">
+            <label>Comentario
+                <textarea name="TextArea" placeholder="Dejá un comentario"></textarea>
+            </label>
+        </div>
+
+        <!--Submit Button-->
+        <div class="form_input">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>

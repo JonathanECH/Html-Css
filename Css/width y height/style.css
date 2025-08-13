@@ -1,0 +1,24 @@
+
+div {
+    background: red; /* Color de fondo */
+    width: 400px; /* Ancho del div */
+    height: 400px; /* Alto del div */;
+    margin: 0 auto; /* Centrado horizontal */
+    border: 8px solid black; /* Borde del div */
+}
+.Estilo_de_texto {
+    font-size: 20px; /* Tamaño de fuente */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 20px; /* Espacio interno */
+}
+form {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente del formulario */
+    font-weight: bold; /* Grosor de la fuente */
+    text-align: center;/*Para alinear el texto al centro*/
+    width: 200px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrado horizontal */
+}
+h1 {
+    text-align: center;/* Alineación del texto */
+}

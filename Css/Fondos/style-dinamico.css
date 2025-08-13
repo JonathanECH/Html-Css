@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background: #9BE1F3;
+}
+.Box {
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    /* Centrar el div */
+    background: url('https://i.blogs.es/87930e/comidas-ricas/1366_2000.jpg') top center fixed;
+    /*background-image: url('https://i.blogs.es/87930e/comidas-ricas/1366_2000.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;/* Fijar la imagen de fondo */
+
+}
+
+.opaco {
+    height: 100%;
+    background-color: rgba(39, 37, 37, 0.6);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}

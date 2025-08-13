@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #D10A00;
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 10px;
+    background: center;
+    background-image: url('https://www.shutterstock.com/image-photo/tranquil-closeup-calm-sea-water-260nw-2548535803.jpg');
+}
+
+.photo2 {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url('https://concepto.de/wp-content/uploads/2015/03/paisaje-800x409.jpg');
+}
+
+.photo3 {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig0i6c8cAlApdW0PYULmVv1EIKQKvpoA_zM0yrVlZGqnK-SJ-B6BBE1me-mYtFjOj6O5BMJQ1WT5dxzqHx1owvpKlSO1Avaa-wVae2VooHwdiXWYv8qIBKk1DugvHKUfCbd4ZlvNHwl0c/s1600/imagenes-de-paisajes-para-dibujar-bonitos.jpg');
+}
+
+.Box {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to top, transparent 10%, #000a);
+    border-top: 6px solid #646464;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.Box2 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to left, transparent 10%, #000a);
+    border-right: 6px solid #646464;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.Box3 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(transparent, #0009);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-family: tahoma;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    font-family: tahoma;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}

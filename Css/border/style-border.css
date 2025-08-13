@@ -1,0 +1,44 @@
+body {
+    background: lightblue;
+}
+div {
+    width: 200px;    
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding-right: 40px;
+    margin: auto;
+
+}
+p {
+    background: red;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+section {
+    margin: 5px;
+    text-align: center;
+}
+input {
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    background: transparent;
+    border-radius: 3px;
+    color: green;
+}
+.Hola1 {
+    border-top-right-radius: 50px 50px ;
+    border-top-left-radius: 50px 50px;
+}
+.Hola2 {
+    border-top-left-radius: 100px 100px ;
+    border-bottom-right-radius: 100px 100px;
+}
+.Hola3 {
+    border-top-left-radius: 10px 50px ;
+}

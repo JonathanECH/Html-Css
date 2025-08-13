@@ -1,0 +1,18 @@
+p{
+    color: red;
+    font-family: 'montserrat';/* Tipo de fuente */
+    font-size: 13px;/* Tamaño de fuente */
+    font-weight: 700;/* Peso de la fuente */
+    font-style: italic;/* Estilo de la fuente */
+    text-justify: justify;/* Justificación del texto */
+    line-height: 1.5;/* Altura de línea */
+    letter-spacing: 2px;/* Espaciado entre letras */
+    text-transform: none;/* Transformación del texto */
+}
+span {
+    text-decoration: line-through;/* Decoración del texto */
+    color: blueviolet;/* Color del texto */
+}
+h1 {
+    text-align: center;/* Alineación del texto */
+}

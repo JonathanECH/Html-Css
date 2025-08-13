@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #333, #000);
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: #eee;
+}
+
+form {
+    background: transparent;
+    padding: 10px 0;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 #fff2;
+}
+
+.form_input {
+    padding: 6px 20px;
+}
+
+label {
+    font-size: 0.9em;
+    color: #ddd;
+    line-height: 2;
+}
+
+fieldset {
+    padding: 5px 20px 10px 20px;
+    margin: 20px;
+    color: #ccc;
+    border: 2px solid #555;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 18px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    background: transparent;
+    color: #ccc;
+    border: none;
+    border: 2px solid #444;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+option {
+    background: #222;
+
+}
+
+textarea {
+    font-family: sans-serif;
+    resize: vertical;
+    /*Es para que el usuario pueda cambiar el tamaño del textarea*/
+    min-height: 100px;
+    /*Es para que el textarea tenga un tamaño mínimo*/
+    max-height: 200px;
+    /*Es para que el textarea tenga un tamaño máximo*/
+}

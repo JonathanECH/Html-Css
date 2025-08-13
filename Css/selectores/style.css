@@ -1,0 +1,12 @@
+li {/* Selector de elemento */
+    color:gray;
+}
+.Ingrediente-faltante {/* Selector de clase */
+    color: red;
+}
+#Ingrediente-secreto {/* Selector de ID */
+    color: green;
+}
+h1 {
+    color: blue;
+}

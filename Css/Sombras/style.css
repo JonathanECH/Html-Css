@@ -1,0 +1,32 @@
+.Box {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background: #e2e2e2;
+    box-shadow: 0 0 40px 0px #0009;
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-shadow: 0 0 4px #0062ff;/*El text-shadow no necesita el cuarto valor del box-shadow*/
+}
+
+p {
+    padding-top: 20px;
+    text-align: justify;
+    text-shadow: 0 0 4px #0062ff;
+    line-height: 1.2;
+}
+
+.img {
+    width: 80px;
+    height:80px;
+    left: 100px;
+    box-shadow: 0 0 20px 0 #000a;
+    /* filter: drop-shadow(0 0 20px #000a); Para fotos png sin fondos*/
+    margin-left: 30%;
+    border-radius: 100%;
+}

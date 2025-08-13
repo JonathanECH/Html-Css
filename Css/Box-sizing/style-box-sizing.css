@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.Box {
+    width: 100px;
+    height: 100px;
+    background: #e42;
+    margin: 10px;
+}
+.Box-default {
+    border: 5px solid black;/*Sin box-sizing*/
+    padding: 10px;
+}
+.Box-new {
+    box-sizing: border-box;/*Con box-sizing*/
+    padding: 10px;/*El padding se incluye en el ancho y alto*/
+    border: 5px solid black;
+}

@@ -1,0 +1,34 @@
+div {
+    font-family: sans-serif;
+    background: #eee;
+    border-left: 4px solid #999;
+    border-radius: 10px;
+    width: 16cm;
+    height: 4cm;
+    margin: auto;
+}
+
+span {
+    font-family: monospace;
+    font-size: 14px;
+    color: #999;
+}
+
+p {
+    padding: 9px;
+    color: #333;
+    background: #28A5C744;/* Color de fondo con transparencia */
+    border-radius: 10px;
+    /*background-size: cover; /* Cubrir todo el área del elemento 
+    background-image: url(https://www.w3schools.com/css/img_fjords.jpg);
+    background-repeat: no-repeat;/* No repetir la imagen 
+    background-position: center; /* Centrar la imagen */
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: blue;
+}
