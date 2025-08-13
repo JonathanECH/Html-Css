@@ -79,3 +79,8 @@ textarea {
     width: auto;
     height: 10px;
 }
+
+a {
+    color: #3845FF;
+    text-decoration: none;
+}
