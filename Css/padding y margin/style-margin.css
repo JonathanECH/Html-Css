@@ -1,30 +1,61 @@
 .formulario {
     background: red;
-    width: 100%;/*El width es el ancho del elemento*/
-    padding: 20px;/*El padding es el espacio entre el contenido y el borde del elemento*/
-    border: black 4px solid;/*El border es el borde del elemento*/
+    /*El background es el color de fondo del elemento*/
+    color: white;
+    /*El color es el color del texto del elemento*/
+    max-width: 500px;
+    /*El max-width es el ancho máximo del elemento*/
+    width: 100%;
+    /*El width es el ancho del elemento*/
+    margin: auto;
+    /*El margin auto centra el elemento*/
+    padding: 20px;
+    /*El padding es el espacio entre el contenido y el borde del elemento*/
+    border: black 4px solid;
+    /*El border es el borde del elemento*/
+    border-radius: 10px;
+    /*El border-radius es el radio del borde del elemento*/
 }
+
 .formulario_input {
-    padding: 12px;/*El padding es el espacio entre el contenido y el borde del elemento*/
-    width: 90%;/*El width es el ancho del elemento*/
-    margin: 10px;/*El margin es el espacio entre el borde del elemento y los elementos adyacentes*/
-    border: 1px solid black;/*El border es el borde del elemento*/
-    background: black;/*El background es el color de fondo del elemento*/
-    color: white;/*El color es el color del texto del elemento*/
-    border : white 2px solid;/*El border es el borde del elemento*/
+    padding: 12px;
+    /*El padding es el espacio entre el contenido y el borde del elemento*/
+    width: 90%;
+    /*El width es el ancho del elemento*/
+    margin: 10px;
+    /*El margin es el espacio entre el borde del elemento y los elementos adyacentes*/
+    background: black;
+    /*El background es el color de fondo del elemento*/
+    /*El color es el color del texto del elemento*/
+    border: white 2px solid;
+    /*El border es el borde del elemento*/
+    border-radius: 10px;
+    /*El border-radius es el radio del borde del elemento*/
 
 }
+
 .formulario_button {
-    width: 50%;/*El width es el ancho del elemento*/
-    color: white;/*El color es el color del texto del elemento*/
-    border : white 2px solid;/*El border es el borde del elemento*/
+    width: 50%;
+    /*El width es el ancho del elemento*/
+    color: white;
+    /*El color es el color del texto del elemento*/
+    border: white 2px solid;
+    /*El border es el borde del elemento*/
 }
+
 .box {
-    background: red;/*El background es el color de fondo del elemento*/
-    width: 150px;/*El width es el ancho del elemento*/
-    height: 150px;/*El height es la altura del elemento*/
-    margin: 20px;/*El margin es el espacio entre el borde del elemento y los elementos adyacentes*/
-    border: 3px solid black;/*El border es el borde del elemento*/
-    text-align: center ;/*El text-align es la alineación del texto dentro del elemento*/
-    color: white;/*El color es el color del texto del elemento*/
+    background: red;
+    /*El background es el color de fondo del elemento*/
+    width: 150px;
+    /*El width es el ancho del elemento*/
+    height: 150px;
+    /*El height es la altura del elemento*/
+    margin: 20px auto;
+    /*El margin 20px auto centrar el elemento horizontalmente y añadir un margen de 20px arriba y abajo*/
+    border: 3px solid black;
+    /*El border es el borde del elemento*/
+    text-align: center;
+    /*El text-align es la alineación del texto dentro del elemento*/
+    color: white;
+    /*El color es el color del texto del elemento*/
 }
