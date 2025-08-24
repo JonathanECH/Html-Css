@@ -1,0 +1,32 @@
+/* Los selectores en CSS son patrones que se utilizan para seleccionar y aplicar estilos a elementos HTML específicos de una página web. Son la parte fundamental del CSS, ya que sin ellos no se podría especificar a qué elementos se le deben aplicar las reglas de estilo.*/
+
+
+/* Selector de atributo */
+img[src="imagen.jpeg"] {
+    /* $ -> termina con , ^ -> comienza con */
+    width: 100%;
+}
+
+/* Seleccionan un elemento que es un descendiente (un hijo, un nieto, etc.) de otro elemento. Se representan con un espacio entre los dos selectores. */
+/* Selector decendiente*/
+ul li {
+    color: #666;
+}
+
+/* El selector por hijo directo (>) se utiliza para seleccionar un elemento que es el hijo inmediato de otro elemento. Esto significa que el segundo elemento debe estar directamente anidado dentro del primero, sin ningún otro elemento intermedio. */
+/* Selector por hijo directo */
+li>em {
+    color: #f00;
+}
+
+/* El selector por hermano adyacente (+) se utiliza para seleccionar un elemento que es el inmediato hermano siguiente de otro elemento. Ambos elementos deben tener el mismo padre y el segundo elemento debe estar justo después del primero en el código HTML. */
+/* Selector de hermano adyacente -> esto significa que esta al lado de algo como si fuera su hermano */
+h1+p {
+    color: #1FADFF;
+}
+
+/* A diferencia del selector de hermanos adyacentes (+), que solo afecta al elemento que está inmediatamente después, el selector de hermanos generales afecta a todos los elementos que están en el mismo nivel jerárquico y que aparecen después del primer elemento en el código HTML. */
+/* Selector de hermanos generales -> esto le da estilo a todos los (p) que estan adyacentes a (h1)*/
+h1~p {
+    color: #1FADFF;
+}

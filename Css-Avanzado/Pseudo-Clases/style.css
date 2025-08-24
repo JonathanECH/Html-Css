@@ -1,0 +1,90 @@
+/* Una pseudo-clase lo que nos permite es seleccionar un estado espesifico de un elemento que seleccionamos*/
+body {}
+
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    width: 200px;
+    text-align: center;
+    margin: 30px;
+}
+
+/* Esto lo que hace es que cundo pasemos el mouse sobre el elemento este cambia de color o de propiedades*/
+h1:hover {
+    color: #000;
+    background-color: #ccc;
+    border: 2px solid #000c;
+    border-radius: 5px;
+}
+
+/* Mientrar se este clickeando el elemento se activa el estilo que le dimos */
+h1:active {
+    color: #fff;
+}
+
+/* Seleccionando el primer li*/
+li:first-child {
+    /* La speudo-clase first solo seleciona al primero*/
+    color: red;
+}
+
+/* Seleccionando los lis que no son ni el primero ni el ultimo*/
+li:nth-child(2) {
+    /* La speudo-clase nth-chlid() puede selecionar cualquier elemento*/
+    color: green;
+}
+
+/* Seleccionando el tercer li */
+li:nth-of-type(3) {
+    color: white;
+}
+
+/* Seleccionando el ultimo li*/
+li:last-child {
+    /* La speudo-clase last solo seleciona al ultimo*/
+    color: brown;
+}
+
+/* Seleccionando los li detro de ".lista" pero que no tengan la clase ".excluir"*/
+.lista li:not(.excluir) {
+    color: red;
+}
+
+div {
+    border: 2px solid black;
+}
+
+/* Seleccionando el div en caso de estar vacio*/
+div:empty {
+    border: none;
+}
+
+/* Seleccionando enlaces no visitados */
+a:link {
+    color: red;
+}
+
+/* Seleccionando enlaces visitados */
+a:visited {
+    color: green;
+}
+
+/* Si el email es invalido se pone de color red */
+input[type="email"]:invalid {
+    color: red
+}
+
+/* Si el email es valido se pone de color green*/
+input[type="email"]:valid {
+    color: green
+}
+
+/* Si el checkbox no esta chekeado tiene un margin de 50px */
+input[type="checkbox"] {
+    margin: 50px;
+}
+
+/* Si el checkbox esta chekeado tiene un margin de 0px */
+input[type="checkbox"]:checked {
+    margin: 0;
+}

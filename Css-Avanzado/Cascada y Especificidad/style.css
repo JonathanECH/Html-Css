@@ -1,0 +1,12 @@
+body {
+    color: #00f;
+}
+#title {/*El "id" tiene el nivel 3 de especifidad*/
+    color : green;
+}
+.titulo {/*La "class" tiene el nivel 2 de especifidad*/
+    color: blue;
+}
+h1 { /*Esto tiene el nivel mas bajo de especifidad*/
+    color: #f00 !important /* El "!important" tiene el nivel mas alto de especifidad */
+}
