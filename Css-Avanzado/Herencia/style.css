@@ -12,5 +12,5 @@ h1 {
 p {
     
     color: inherit;/* Lo que hace es que toma el color de su padre ó de algien más arriba en caso de que el padre no tenga color */
-    color: initial; /* Lo que hace es que toma el valo inicial que tenia osea negro */
+    color: initial; /* Lo que hace es que toma el valor inicial que tenia osea negro */
 }

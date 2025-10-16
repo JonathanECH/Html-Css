@@ -1,0 +1,40 @@
+/* Metodología BEM para nombrar clases en CSS
+Bloque__Elemento--Modificador (Block__Element--Modifier)
+Ejemplo: .lista__item--importante
+*/
+body{
+    /* align-items: center; */
+}
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista{
+    width: 20em;
+    border: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    /* margin: 20px auto; */
+}
+.lista--vieja {
+    opacity: 0.5; /* Hace que el elemento sea más transparente */
+    background: #ccc;
+}
+
+.lista__item {
+    margin: 10px 0px;
+    color: #333;
+    list-style: square;/* Cambia el tipo de viñeta square es para cuadrado*/
+}
+
+.item--importante {
+    color: blue;
+}
+
+.item--danino {
+    color: red;
+}

@@ -1,0 +1,31 @@
+h1::first-letter{/*Esto modifica la primera letra del h1*/
+    color: #252;
+    font-size: 2em;
+}
+
+div::first-line{/*Esto modifica la primera linea del div*/
+    color: purple;
+}
+
+div::selection{/*Esto es para modificar el color del texto cuando se selecciona*/
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+input::placeholder{/*Esto es para modificar el placeholder del input*/
+    color: green;
+}
+
+li::marker{/*Esto le da estilo a el puntito del li (viñeta)*/
+    color: red;
+}
+
+li::before{/*Esto crea texto antes del li*/
+    content: 'Antes ';
+    color: blue;
+}
+
+li::after{/*Esto crea texto despues del li*/
+    content: ' Despues';
+    color: green;
+}

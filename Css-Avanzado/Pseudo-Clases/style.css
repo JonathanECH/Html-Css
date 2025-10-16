@@ -1,12 +1,16 @@
 /* Una pseudo-clase lo que nos permite es seleccionar un estado espesifico de un elemento que seleccionamos*/
 body {}
 
+.Content-aling{
+    display: flex;
+    justify-content: center;
+}
 h1 {
     color: #48e;
     font-family: sans-serif;
-    width: 200px;
-    text-align: center;
+    width: 300px;
     margin: 30px;
+    text-align: center;
 }
 
 /* Esto lo que hace es que cundo pasemos el mouse sobre el elemento este cambia de color o de propiedades*/
@@ -25,7 +29,7 @@ h1:active {
 /* Seleccionando el primer li*/
 li:first-child {
     /* La speudo-clase first solo seleciona al primero*/
-    color: red;
+    color: black;
 }
 
 /* Seleccionando los lis que no son ni el primero ni el ultimo*/
@@ -34,7 +38,7 @@ li:nth-child(2) {
     color: green;
 }
 
-/* Seleccionando el tercer li */
+/* Seleccionando el tercer li solo funciona con los li a comparacion de :nth-child*/
 li:nth-of-type(3) {
     color: white;
 }
@@ -50,12 +54,12 @@ li:last-child {
     color: red;
 }
 
-div {
+.Div-border {
     border: 2px solid black;
 }
 
 /* Seleccionando el div en caso de estar vacio*/
-div:empty {
+.Div-border:empty {
     border: none;
 }
 

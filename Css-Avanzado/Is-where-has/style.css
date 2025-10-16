@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* section .Elemento1,
+section .Elemento2,
+section .Elemento3{
+    color: purple;
+} esta es una forma poco partica*/
+
+/* Esta es la forma mas practica de llegar al mismo objetivo */
+section :is(.Elemento1, .Elemento2, .Elemento3) {
+    color: purple;
+}
+input{
+    color: inherit;
+}
+/* El pseudo-clase :has permite seleccionar un elemento padre en base a sus hijos */
+/* En este caso selecciona el label que tiene un input hijo que es valido */
+label:has(input:valid){
+    color: green;
+}
+/* En este caso selecciona el label que tiene un input hijo que es invalido */
+label:has(input:invalid){
+    color: red;
+}
+/* En caso de que al (ul) le siga un (div) modificamos el (ul) */
+ul:has(+div){
+    width: 200px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+}
